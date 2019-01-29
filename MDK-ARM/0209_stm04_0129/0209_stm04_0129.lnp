@@ -1,0 +1,25 @@
+--cpu Cortex-M0
+"0209_stm04_0129\startup_stm32f042x6.o"
+"0209_stm04_0129\main.o"
+"0209_stm04_0129\stm32f0xx_it.o"
+"0209_stm04_0129\stm32f0xx_hal_msp.o"
+"0209_stm04_0129\stm32f0xx_hal_can.o"
+"0209_stm04_0129\stm32f0xx_hal_tim.o"
+"0209_stm04_0129\stm32f0xx_hal_tim_ex.o"
+"0209_stm04_0129\stm32f0xx_hal_rcc.o"
+"0209_stm04_0129\stm32f0xx_hal_rcc_ex.o"
+"0209_stm04_0129\stm32f0xx_hal.o"
+"0209_stm04_0129\stm32f0xx_hal_i2c.o"
+"0209_stm04_0129\stm32f0xx_hal_i2c_ex.o"
+"0209_stm04_0129\stm32f0xx_hal_gpio.o"
+"0209_stm04_0129\stm32f0xx_hal_dma.o"
+"0209_stm04_0129\stm32f0xx_hal_cortex.o"
+"0209_stm04_0129\stm32f0xx_hal_pwr.o"
+"0209_stm04_0129\stm32f0xx_hal_pwr_ex.o"
+"0209_stm04_0129\stm32f0xx_hal_flash.o"
+"0209_stm04_0129\stm32f0xx_hal_flash_ex.o"
+"0209_stm04_0129\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter "0209_stm04_0129\0209_stm04_0129.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "0209_stm04_0129.map" -o 0209_stm04_0129\0209_stm04_0129.axf
